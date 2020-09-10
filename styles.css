@@ -1,5 +1,4 @@
 body {
-    
     font-family:"Roboto";
 }
 a{
@@ -24,15 +23,12 @@ a{
 }
 
 .flex-container-body2{
-    display: flex;
     flex-direction:column;
-    align-items:center;
-    align-items:center;
+    align-items:left;
     width:100%;
 }
 
 #responsive-button{
-display:flex;
 justify-content:flex-start;
 align-items:flex-start;
 width:100%;
@@ -55,9 +51,7 @@ justify-content:flex-end;
 font-family:Roboto;   
 }
 
-li:hover{
-background-color:#ff5c0f
-}
+
 
 .flexbox-item-1 {
 display: flex;
@@ -110,7 +104,8 @@ justify-content:space-between;
 padding:15px 15px 15px 15px;
 align-content:right;
 text-align:center;
-background-color: #20a8b4
+background-color: #20a8b4;
+width:100%;
 }
 
 
@@ -124,6 +119,7 @@ justify-content:flex-start;
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
+display:none;
 }
 
 .flexbox-item-9{
@@ -134,21 +130,25 @@ align-content:space-between;
 
 .flexbox-item-10{
     display:flex;
-    justify-content:left;
-    align-content:left;
+    align-content:center;
     background-color: #20a8b4;
     width: 100%;
-    padding:0px 5px 0px 15px;
-
-
+    padding:0px 5px 0px 5px;
 }
+.flex-container-body2{
+    flex-direction:column;
+    align-items:center;
+    text-align:left;
+    width:100%;
+    }
+
 ul{
-display:inline;
-flex-direction:column;
-align-content:space-between flex-end;
-justify-content:flex-end;
-font-family:Roboto;
-}
+    display:inline;
+    flex-direction:column;
+    align-content:space-between flex-end;
+    justify-content:flex-end;
+    font-family:Roboto;
+    }
 
 li{
 display:flex;
@@ -163,16 +163,27 @@ font-family:Roboto;
 #Learn-to{
         color: #20a8b4;
         }
-
+.flexbox-item-2:hover{
+        background-color:#ff5c0f
+        }
+        .flexbox-item-3:hover{
+        background-color:#ff5c0f
+        }
+        .flexbox-item-4:hover{
+        background-color:#ff5c0f
+        }
+        .flexbox-item-5:hover{
+        background-color:#ff5c0f
+        }
+        .flexbox-item-6:hover{
+        background-color:#ff5c0f
+        }
+        .flexbox-item-10:hover{
+        background-color:#ff5c0f
+        }
 
 @media screen and (min-width:768px){
    
-    
-}  
-    #buttons{
-    width:800px
-    } 
-
     .flex-container-header{
         display:flex;
         flex-direction:row;
@@ -181,7 +192,12 @@ font-family:Roboto;
         justify-content:space-between;
         background-color: #F2F2F2;
     }
-    
+    .flex-container-body2{
+        flex-direction:column;
+        align-items:center;
+        text-align:left;
+        width:auto;
+        }
     .flexbox-item-1 {
         display: flex;
         flex-direction:row;
@@ -235,6 +251,7 @@ font-family:Roboto;
         align-content:right;
         text-align:center;
         background-color: #20a8b4;
+        width:auto;
     }
     
     .flexbox-item-7{
@@ -254,15 +271,17 @@ font-family:Roboto;
             display:flex;
             justify-content:flex-start;
             align-content:space-between;
+            text-align:left
             }
             
     .flexbox-item-10{
-            display:flex;
+            
             justify-content:flex-start;
             align-content:space-between;
             background-color: #20a8b4;
-            width: auto;
+            width:100px;
             padding:0px 5px 0px 15px;
+            text-align:left
             }            
    
     
@@ -290,7 +309,26 @@ font-family:Roboto;
     #learning{
         color: #ff5c0f;
         }
+        .flexbox-item-2:hover{
+            background-color:#ff5c0f
+            }
+            .flexbox-item-3:hover{
+                background-color:#ff5c0f
+                }
+            .flexbox-item-4:hover{
+                background-color:#ff5c0f
+                }
+            .flexbox-item-5:hover{
+                background-color:#ff5c0f
+                }
+            .flexbox-item-6:hover{
+                background-color:#ff5c0f
+                }
+            .flexbox-item-10:hover{
+                background-color:#ff5c0f
+                }
     }
+    
 
 
 
